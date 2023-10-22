@@ -33,7 +33,7 @@ export default function Mapbox() {
     });
 
     return (
-        <div className='w-full rounded-md overflow-hidden'>
+        <div className='w-full h-full rounded-md overflow-hidden'>
             <div ref={mapContainer} className="map-container" />
         </div>
     )
